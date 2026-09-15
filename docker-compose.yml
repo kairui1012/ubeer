@@ -21,9 +21,9 @@ services:
     container_name: mysql-rideshare
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: ride_db
+      MYSQL_DATABASE: ubeer
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
