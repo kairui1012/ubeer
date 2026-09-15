@@ -33,7 +33,7 @@ public class LocationController {
             @RequestParam double longitude,
             @RequestParam (defaultValue = "5.0") double radius){
 
-        return ResponseEntity.ok(locationService.findByDrivers(latitude,longitude,radius);
+        return ResponseEntity.ok(locationService.findByDrivers(latitude,longitude,radius));
     }
 
     // called when driver goes offline
